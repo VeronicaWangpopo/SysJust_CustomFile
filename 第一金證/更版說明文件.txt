@@ -1,0 +1,15 @@
+第一金證更版操作說明:
+
+Step1: 請將原路徑下之 D:\TradeTW 的 5380web資料夾進行備份。
+Stet2: 請下載新版程式，下載網址: http://dj2.moneydj.com/download/FirstSec-20180925.zip
+Step3: 將下載之檔案解壓縮，並複製至 D:\TradeTW，將原5380web資料夾進行取代。
+Step4：刪除D:\DJServ.NET\WebCache\z 資料夾
+Step5：請執行下列網址，驗證換版後是否正確（版型是否為新版）
+	http://stocks.ftsi.com.tw/z/zb/zba/zba.djhtm
+	http://stocks.ftsi.com.tw/z/zc/zca/zca.djhtm?A=2330
+
+
+*** 注意事項 ***
+1. 請記得將「大盤走勢圖」之串接網址改為正式區 Domain: https://jpc.moneydj.com
+2. 請「外框程式」將接收嘉實資訊源message的網址改為: stocks.ftsi.com.tw
+

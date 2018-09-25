@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*===== Responsive Tables - style E, 上下左右Scroll, 第一行和最左列固定 =====*/
+.table_RWD_E thead th, .table_RWD_E .sticky-wrap .sticky-intersect th { color:#000; white-space: nowrap; background-color:#e7e7e7;}
+.table_RWD_E th, .table_RWD_E td, .table_RWD_E .sticky-wrap td {padding: 5px; height: 39px; min-width: 149px;}
+.table_RWD_E thead th { border-right:1px solid #fff;font-weight: bold;}
+.table_RWD_E tbody th { background-color: #fcfcfc;color: #2a3d96;}
+.table_RWD_E tbody th, .table_RWD_E tbody td {border:1px solid rgba(0,0,0,0.05);}
+.table_RWD_E tbody tr:nth-child(2n-1) {transition:all .125s ease-in-out}
+.table_RWD_E tbody tr:nth-child(2n + 1) {background-color: #fff;}
+
+/* For appearance */
+.table_RWD_E .sticky-wrap {overflow-x:auto;overflow-y:hidden;position:relative;width:100%;}
+.table_RWD_E .sticky-wrap .sticky-thead, .table_RWD_E .sticky-wrap .sticky-col, .table_RWD_E .sticky-wrap .sticky-intersect {opacity:0;position:absolute;top:0;left:0;transition:all .125s ease-in-out;z-index:50;width:auto;}
+.table_RWD_E .sticky-wrap .sticky-thead {box-shadow:0 .25em .1em -.1em rgba(0,0,0,.125);z-index:100;width:100%;}
+.table_RWD_E .sticky-wrap .sticky-intersect {opacity:1;z-index:150}
+.table_RWD_E .sticky-wrap td, .table_RWD_E .sticky-wrap th{box-sizing:border-box}
+
+/* Not needed for sticky header/column functionality */
+.table_RWD_E td.user-name {text-transform:capitalize}
+.table_RWD_E .sticky-wrap.overflow-y {overflow-y:auto;max-height:50vh}

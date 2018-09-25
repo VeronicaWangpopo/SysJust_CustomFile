@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
+.jzdbox1 {width:273px; overflow:hidden; display:block; margin:0 auto;}
+
+.jzdcalt {width: 195px !important; font-size: 16px !important;font-weight: 600 !important; color: #9e6328; display: block; /* margin: 18px 0 0 0; */ text-transform: uppercase; text-align: center; letter-spacing: 1px;}
+.jzdcal span {font:14px 'Roboto';font-weight:400;text-align:center;width:39px;height:39px;display:inline-block;float:left;overflow:hidden;line-height:40px;}
+.jzdcal span.weekdays {color:#c00000;}
+.jzdcal span.tag {position: absolute; display: inline-block; width: 5px; height: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-color: #e42e84/*FF0004*/;margin: 6px 0 0 1px;}
+.jzdcal span.today .tag {background-color: #fff;}
+.jzdcal .jzdb {background-color: rgba(0,0,0,0.05);}
+
+.circle {background: rgba(214,209,146,.1);}
+.today {background-color: #e42e84/*ff0066*/;color: #fff;}
+.circle, .today {box-sizing:border-box!important;border-radius:200px !important;}
+
+span[data-title]:hover:after,div[data-title]:hover:after {font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif; font-size: 13px; line-height: 16px;color: #000; content:attr(data-title);position:absolute;top:0;left: 0; max-width: 100%;max-height: 36px; overflow: hidden; background:#fff;border:1px solid rgba(0,0,0,0.2); margin: 310px 5% 0 5%; padding:1px 5px;z-index:9999;-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.1); box-shadow: 0px 3px 5px rgba(0,0,0,0.1);}
+
+.icon a:hover i {color: #000;}
+[class^="icon-"], [class*=" icon-"] { font-family: FontAwesome !important;}
+
+.list {text-align: left;margin-left: 0;}
+.tab-content {padding: 0 !important;}
+
+/*.TebsContent .SubTabs>li>a.active {background-color: #355f22; border-color: #355f22;color: #fff}*/

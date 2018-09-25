@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {height:2000px;font-family:Arial,"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;background-color:#fff}
+table {border-collapse:collapse;float:left}
+thead, .table-horizontal-scroll th {background:#e7e7e7;color:#000}
+th,td {text-align:center;padding:5px 4px;height:25px}
+tbody tr {border-top: 1px solid #ddd;}
+tbody tr:nth-child(even) {background-color: rgba(220, 220, 220, 0.15);}
+table.table-fixed-header {border-right: 1px solid #ddd;}
+.table-horizontal-scroll {width:100%}
+.table-horizontal-scroll-wrapper {overflow-x:scroll}
+.table-horizontal-scroll-wrapper table {min-width:1000px}
+.container {position:relative}
+.fixed {position:absolute;top:0;left:0}
+/*========== Scrollbar ==========*/
+::-webkit-scrollbar {width:5px;height:5px;background-color:rgba(0,0,0,0.1)}
+::-webkit-scrollbar-thumb {background-color:rgba(0,0,0,0.5)}
